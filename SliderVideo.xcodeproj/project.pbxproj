@@ -1523,6 +1523,10 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = tinystone;
 				TargetAttributes = {
+					D0FA32841963929E00CAAD74 = {
+						DevelopmentTeam = 5JZ562WR45;
+						ProvisioningStyle = Automatic;
+					};
 					D0FA32A81963929E00CAAD74 = {
 						TestTargetID = D0FA32841963929E00CAAD74;
 					};
@@ -1974,6 +1978,9 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Jinag Xin (6R7JUEGEH3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5JZ562WR45;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SliderVideo/SliderVideo-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -1982,10 +1989,11 @@
 					/imagefilter,
 				);
 				INFOPLIST_FILE = "SliderVideo/SliderVideo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lovecode.SliderVideo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "b9190121-97a9-4464-ae73-eae662d0c0cc";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1998,6 +2006,9 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Jinag Xin (6R7JUEGEH3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5JZ562WR45;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SliderVideo/SliderVideo-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -2006,10 +2017,11 @@
 					/imagefilter,
 				);
 				INFOPLIST_FILE = "SliderVideo/SliderVideo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lovecode.SliderVideo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "b9190121-97a9-4464-ae73-eae662d0c0cc";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};

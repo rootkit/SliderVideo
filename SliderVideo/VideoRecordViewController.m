@@ -2,8 +2,8 @@
 //  VRViewController.m
 //  VideoRecorder
 //
-//  Created by Giuseppe on 8/3/13.
-//  Copyright (c) 2013 Giuseppe. All rights reserved.
+//  Created by Maximiliano on 8/3/13.
+//  Copyright (c) 2017 Maximiliano. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

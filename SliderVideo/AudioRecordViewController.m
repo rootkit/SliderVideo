@@ -2,8 +2,8 @@
 //  AudioRecordViewController.m
 //  SliderVideo
 //
-//  Created Giuseppe on 7/10/14.
-//  Copyright (c) Giuseppe. All rights reserved.
+//  Created by Maximiliano on 7/10/17.
+//  Copyright (c) Maximiliano. All rights reserved.
 //
 
 #import "AudioRecordViewController.h"

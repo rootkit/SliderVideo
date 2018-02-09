@@ -2,14 +2,14 @@
 //  POVoiceHUD.h
 //  POVoiceHUD
 //
-//  Created by Polat Olu on 18/04/2013.
-//  Copyright (c) 2013 Polat Olu. All rights reserved.
+//  Created by Polat Olu on 18/04/2017.
+//  Copyright (c) 2017 Polat Olu. All rights reserved.
 //
 
 
 // This code is distributed under the terms and conditions of the MIT license.
 
-// Copyright (c) 2013 Polat Olu
+// Copyright (c) 2017 Polat Olu
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal

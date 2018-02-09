@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  SliderVideo
 //
-//  Created Giuseppe on 7/2/14.
-//  Copyright (c) Giuseppe. All rights reserved.
+//  Created by Maximiliano on 7/2/17.
+//  Copyright (c) Maximiliano. All rights reserved.
 //
 
 #import "AppDelegate.h"

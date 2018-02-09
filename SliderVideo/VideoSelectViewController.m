@@ -2,8 +2,8 @@
 //  VideoSelectViewController.m
 //  SliderVideo
 //
-//  Created Giuseppe on 7/25/14.
-//  Copyright (c) Giuseppe. All rights reserved.
+//  Created by Maximiliano on 7/25/17.
+//  Copyright (c) Maximiliano. All rights reserved.
 //
 
 #import "VideoSelectViewController.h"

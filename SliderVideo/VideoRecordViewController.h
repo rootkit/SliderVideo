@@ -2,8 +2,8 @@
 //  VideoRecordViewController.h
 //  SliderVideo
 //
-//  Created Giuseppe on 7/14/14.
-//  Copyright (c) Giuseppe. All rights reserved.
+//  Created by Maximiliano on 7/14/17.
+//  Copyright (c) Maximiliano. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

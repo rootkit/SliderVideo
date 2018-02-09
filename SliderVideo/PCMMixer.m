@@ -1,7 +1,7 @@
 //
 //  PCMMixer.m
 //
-//  Created by Giuseppe on 3/25/09.
+//  Created by Maximiliano on 3/25/09.
 //
 
 #import "PCMMixer.h"
