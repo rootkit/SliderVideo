@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		3293E08E1A19A8EC0086F1C7 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3293E08D1A19A8EC0086F1C7 /* MobileCoreServices.framework */; };
+		84350EDD2039CACB0066BF3F /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84350EDC2039CACB0066BF3F /* AssetsLibrary.framework */; };
+		98D5F8F26B9DD8B1C642820C /* libPods-SliderVideo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5100927F0E87B7EA27A8F6FB /* libPods-SliderVideo.a */; };
+		9A6B98ADE84191F111668C13 /* libPods-SliderVideoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D3161C736D2F6C6EC59C049 /* libPods-SliderVideoTests.a */; };
 		D00326A819652FDB00EE19DF /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D00326A719652FDB00EE19DF /* ProgressHUD.m */; };
 		D00326AB1965361600EE19DF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D00326AA1965361500EE19DF /* AVFoundation.framework */; };
 		D00326AD19653BE600EE19DF /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D00326AC19653BE600EE19DF /* CoreFoundation.framework */; };
@@ -107,23 +110,6 @@
 		D0FA32AD1963929E00CAAD74 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FA328C1963929E00CAAD74 /* UIKit.framework */; };
 		D0FA32B51963929E00CAAD74 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0FA32B31963929E00CAAD74 /* InfoPlist.strings */; };
 		D0FA32B71963929E00CAAD74 /* SliderVideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FA32B61963929E00CAAD74 /* SliderVideoTests.m */; };
-		D0FD9C42196A84AC00E50D0E /* ALAsset+accessibilityLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FD9C22196A84AC00E50D0E /* ALAsset+accessibilityLabel.m */; };
-		D0FD9C43196A84AC00E50D0E /* ALAsset+assetType.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FD9C24196A84AC00E50D0E /* ALAsset+assetType.m */; };
-		D0FD9C44196A84AC00E50D0E /* ALAsset+isEqual.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FD9C26196A84AC00E50D0E /* ALAsset+isEqual.m */; };
-		D0FD9C45196A84AC00E50D0E /* ALAssetsGroup+isEqual.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FD9C28196A84AC00E50D0E /* ALAssetsGroup+isEqual.m */; };
-		D0FD9C46196A84AC00E50D0E /* CTAssetItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FD9C2A196A84AC00E50D0E /* CTAssetItemViewController.m */; };
-		D0FD9C47196A84AC00E50D0E /* CTAssetScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FD9C2C196A84AC00E50D0E /* CTAssetScrollView.m */; };
-		D0FD9C48196A84AC00E50D0E /* CTAssetsGroupViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FD9C2E196A84AC00E50D0E /* CTAssetsGroupViewCell.m */; };
-		D0FD9C49196A84AC00E50D0E /* CTAssetsGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FD9C30196A84AC00E50D0E /* CTAssetsGroupViewController.m */; };
-		D0FD9C4A196A84AC00E50D0E /* CTAssetsPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FD9C32196A84AC00E50D0E /* CTAssetsPageViewController.m */; };
-		D0FD9C4B196A84AC00E50D0E /* CTAssetsPickerConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FD9C34196A84AC00E50D0E /* CTAssetsPickerConstants.m */; };
-		D0FD9C4C196A84AC00E50D0E /* CTAssetsPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FD9C36196A84AC00E50D0E /* CTAssetsPickerController.m */; };
-		D0FD9C4D196A84AC00E50D0E /* CTAssetsSupplementaryView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FD9C38196A84AC00E50D0E /* CTAssetsSupplementaryView.m */; };
-		D0FD9C4E196A84AC00E50D0E /* CTAssetsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FD9C3A196A84AC00E50D0E /* CTAssetsViewCell.m */; };
-		D0FD9C4F196A84AC00E50D0E /* CTAssetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FD9C3C196A84AC00E50D0E /* CTAssetsViewController.m */; };
-		D0FD9C50196A84AC00E50D0E /* CTAssetsViewControllerTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FD9C3E196A84AC00E50D0E /* CTAssetsViewControllerTransition.m */; };
-		D0FD9C51196A84AC00E50D0E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0FD9C3F196A84AC00E50D0E /* Images.xcassets */; };
-		D0FD9C52196A84AC00E50D0E /* NSDateFormatter+timeIntervalFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FD9C41196A84AC00E50D0E /* NSDateFormatter+timeIntervalFormatter.m */; };
 		D0FD9E6B196A9AE300E50D0E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FD9E6A196A9AE300E50D0E /* OpenGLES.framework */; };
 		D0FDA1CF196AA26700E50D0E /* GLProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FDA075196AA26600E50D0E /* GLProgram.m */; };
 		D0FDA1D0196AA26700E50D0E /* GPUImage3x3ConvolutionFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FDA078196AA26600E50D0E /* GPUImage3x3ConvolutionFilter.m */; };
@@ -303,7 +289,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D3161C736D2F6C6EC59C049 /* libPods-SliderVideoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SliderVideoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3293E08D1A19A8EC0086F1C7 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		3D85D7D56EF71C9A18F5CC31 /* Pods-SliderVideo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SliderVideo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SliderVideo/Pods-SliderVideo.debug.xcconfig"; sourceTree = "<group>"; };
+		5100927F0E87B7EA27A8F6FB /* libPods-SliderVideo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SliderVideo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6411807BCC4F6DAE9168EA31 /* Pods-SliderVideoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SliderVideoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SliderVideoTests/Pods-SliderVideoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		750AF7CA8394ABEC133A2319 /* Pods-SliderVideoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SliderVideoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SliderVideoTests/Pods-SliderVideoTests.release.xcconfig"; sourceTree = "<group>"; };
+		84350EDC2039CACB0066BF3F /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		86F7D0571587EFDBAFF29AED /* Pods-SliderVideo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SliderVideo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SliderVideo/Pods-SliderVideo.release.xcconfig"; sourceTree = "<group>"; };
 		D00326A619652FDB00EE19DF /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
 		D00326A719652FDB00EE19DF /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
 		D00326AA1965361500EE19DF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -434,39 +427,6 @@
 		D0FA32B21963929E00CAAD74 /* SliderVideoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SliderVideoTests-Info.plist"; sourceTree = "<group>"; };
 		D0FA32B41963929E00CAAD74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D0FA32B61963929E00CAAD74 /* SliderVideoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SliderVideoTests.m; sourceTree = "<group>"; };
-		D0FD9C21196A84AC00E50D0E /* ALAsset+accessibilityLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAsset+accessibilityLabel.h"; sourceTree = "<group>"; };
-		D0FD9C22196A84AC00E50D0E /* ALAsset+accessibilityLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAsset+accessibilityLabel.m"; sourceTree = "<group>"; };
-		D0FD9C23196A84AC00E50D0E /* ALAsset+assetType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAsset+assetType.h"; sourceTree = "<group>"; };
-		D0FD9C24196A84AC00E50D0E /* ALAsset+assetType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAsset+assetType.m"; sourceTree = "<group>"; };
-		D0FD9C25196A84AC00E50D0E /* ALAsset+isEqual.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAsset+isEqual.h"; sourceTree = "<group>"; };
-		D0FD9C26196A84AC00E50D0E /* ALAsset+isEqual.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAsset+isEqual.m"; sourceTree = "<group>"; };
-		D0FD9C27196A84AC00E50D0E /* ALAssetsGroup+isEqual.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAssetsGroup+isEqual.h"; sourceTree = "<group>"; };
-		D0FD9C28196A84AC00E50D0E /* ALAssetsGroup+isEqual.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAssetsGroup+isEqual.m"; sourceTree = "<group>"; };
-		D0FD9C29196A84AC00E50D0E /* CTAssetItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAssetItemViewController.h; sourceTree = "<group>"; };
-		D0FD9C2A196A84AC00E50D0E /* CTAssetItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAssetItemViewController.m; sourceTree = "<group>"; };
-		D0FD9C2B196A84AC00E50D0E /* CTAssetScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAssetScrollView.h; sourceTree = "<group>"; };
-		D0FD9C2C196A84AC00E50D0E /* CTAssetScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAssetScrollView.m; sourceTree = "<group>"; };
-		D0FD9C2D196A84AC00E50D0E /* CTAssetsGroupViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAssetsGroupViewCell.h; sourceTree = "<group>"; };
-		D0FD9C2E196A84AC00E50D0E /* CTAssetsGroupViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAssetsGroupViewCell.m; sourceTree = "<group>"; };
-		D0FD9C2F196A84AC00E50D0E /* CTAssetsGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAssetsGroupViewController.h; sourceTree = "<group>"; };
-		D0FD9C30196A84AC00E50D0E /* CTAssetsGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAssetsGroupViewController.m; sourceTree = "<group>"; };
-		D0FD9C31196A84AC00E50D0E /* CTAssetsPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAssetsPageViewController.h; sourceTree = "<group>"; };
-		D0FD9C32196A84AC00E50D0E /* CTAssetsPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAssetsPageViewController.m; sourceTree = "<group>"; };
-		D0FD9C33196A84AC00E50D0E /* CTAssetsPickerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAssetsPickerConstants.h; sourceTree = "<group>"; };
-		D0FD9C34196A84AC00E50D0E /* CTAssetsPickerConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAssetsPickerConstants.m; sourceTree = "<group>"; };
-		D0FD9C35196A84AC00E50D0E /* CTAssetsPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAssetsPickerController.h; sourceTree = "<group>"; };
-		D0FD9C36196A84AC00E50D0E /* CTAssetsPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAssetsPickerController.m; sourceTree = "<group>"; };
-		D0FD9C37196A84AC00E50D0E /* CTAssetsSupplementaryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAssetsSupplementaryView.h; sourceTree = "<group>"; };
-		D0FD9C38196A84AC00E50D0E /* CTAssetsSupplementaryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAssetsSupplementaryView.m; sourceTree = "<group>"; };
-		D0FD9C39196A84AC00E50D0E /* CTAssetsViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAssetsViewCell.h; sourceTree = "<group>"; };
-		D0FD9C3A196A84AC00E50D0E /* CTAssetsViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAssetsViewCell.m; sourceTree = "<group>"; };
-		D0FD9C3B196A84AC00E50D0E /* CTAssetsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAssetsViewController.h; sourceTree = "<group>"; };
-		D0FD9C3C196A84AC00E50D0E /* CTAssetsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAssetsViewController.m; sourceTree = "<group>"; };
-		D0FD9C3D196A84AC00E50D0E /* CTAssetsViewControllerTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAssetsViewControllerTransition.h; sourceTree = "<group>"; };
-		D0FD9C3E196A84AC00E50D0E /* CTAssetsViewControllerTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAssetsViewControllerTransition.m; sourceTree = "<group>"; };
-		D0FD9C3F196A84AC00E50D0E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		D0FD9C40196A84AC00E50D0E /* NSDateFormatter+timeIntervalFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+timeIntervalFormatter.h"; sourceTree = "<group>"; };
-		D0FD9C41196A84AC00E50D0E /* NSDateFormatter+timeIntervalFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+timeIntervalFormatter.m"; sourceTree = "<group>"; };
 		D0FD9E6A196A9AE300E50D0E /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		D0FDA074196AA26600E50D0E /* GLProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLProgram.h; sourceTree = "<group>"; };
 		D0FDA075196AA26600E50D0E /* GLProgram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLProgram.m; sourceTree = "<group>"; };
@@ -805,6 +765,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84350EDD2039CACB0066BF3F /* AssetsLibrary.framework in Frameworks */,
 				3293E08E1A19A8EC0086F1C7 /* MobileCoreServices.framework in Frameworks */,
 				D008D9C7196EA1BF00D0846F /* CoreAudio.framework in Frameworks */,
 				D0F3D6B5196C1FA1000F5D54 /* MediaPlayer.framework in Frameworks */,
@@ -815,6 +776,7 @@
 				D0FA328B1963929E00CAAD74 /* CoreGraphics.framework in Frameworks */,
 				D0FA328D1963929E00CAAD74 /* UIKit.framework in Frameworks */,
 				D0FA32891963929E00CAAD74 /* Foundation.framework in Frameworks */,
+				98D5F8F26B9DD8B1C642820C /* libPods-SliderVideo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -825,12 +787,24 @@
 				D0FA32AB1963929E00CAAD74 /* XCTest.framework in Frameworks */,
 				D0FA32AD1963929E00CAAD74 /* UIKit.framework in Frameworks */,
 				D0FA32AC1963929E00CAAD74 /* Foundation.framework in Frameworks */,
+				9A6B98ADE84191F111668C13 /* libPods-SliderVideoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B81587D08A03C15C2B3F3E50 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D85D7D56EF71C9A18F5CC31 /* Pods-SliderVideo.debug.xcconfig */,
+				86F7D0571587EFDBAFF29AED /* Pods-SliderVideo.release.xcconfig */,
+				6411807BCC4F6DAE9168EA31 /* Pods-SliderVideoTests.debug.xcconfig */,
+				750AF7CA8394ABEC133A2319 /* Pods-SliderVideoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D008D9C9196EA91D00D0846F /* POVoiceHUD */ = {
 			isa = PBXGroup;
 			children = (
@@ -985,6 +959,7 @@
 				D0FA32B01963929E00CAAD74 /* SliderVideoTests */,
 				D0FA32871963929E00CAAD74 /* Frameworks */,
 				D0FA32861963929E00CAAD74 /* Products */,
+				B81587D08A03C15C2B3F3E50 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1000,6 +975,7 @@
 		D0FA32871963929E00CAAD74 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				84350EDC2039CACB0066BF3F /* AssetsLibrary.framework */,
 				3293E08D1A19A8EC0086F1C7 /* MobileCoreServices.framework */,
 				D008D9C6196EA1BF00D0846F /* CoreAudio.framework */,
 				D0F3D6B4196C1FA1000F5D54 /* MediaPlayer.framework */,
@@ -1011,6 +987,8 @@
 				D0FA328A1963929E00CAAD74 /* CoreGraphics.framework */,
 				D0FA328C1963929E00CAAD74 /* UIKit.framework */,
 				D0FA32AA1963929E00CAAD74 /* XCTest.framework */,
+				5100927F0E87B7EA27A8F6FB /* libPods-SliderVideo.a */,
+				1D3161C736D2F6C6EC59C049 /* libPods-SliderVideoTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1025,7 +1003,6 @@
 				D012D664197419E9001B9FDD /* MDRadialProgress */,
 				D008D9C9196EA91D00D0846F /* POVoiceHUD */,
 				D0FDA073196AA26600E50D0E /* imagefilter */,
-				D0FD9C20196A84AC00E50D0E /* CTAssetsPickerController */,
 				D00326A619652FDB00EE19DF /* ProgressHUD.h */,
 				D00326A719652FDB00EE19DF /* ProgressHUD.m */,
 				D01212AF1963E72300D41A41 /* GMGridView */,
@@ -1081,46 +1058,6 @@
 				D0FA32B31963929E00CAAD74 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		D0FD9C20196A84AC00E50D0E /* CTAssetsPickerController */ = {
-			isa = PBXGroup;
-			children = (
-				D0FD9C21196A84AC00E50D0E /* ALAsset+accessibilityLabel.h */,
-				D0FD9C22196A84AC00E50D0E /* ALAsset+accessibilityLabel.m */,
-				D0FD9C23196A84AC00E50D0E /* ALAsset+assetType.h */,
-				D0FD9C24196A84AC00E50D0E /* ALAsset+assetType.m */,
-				D0FD9C25196A84AC00E50D0E /* ALAsset+isEqual.h */,
-				D0FD9C26196A84AC00E50D0E /* ALAsset+isEqual.m */,
-				D0FD9C27196A84AC00E50D0E /* ALAssetsGroup+isEqual.h */,
-				D0FD9C28196A84AC00E50D0E /* ALAssetsGroup+isEqual.m */,
-				D0FD9C29196A84AC00E50D0E /* CTAssetItemViewController.h */,
-				D0FD9C2A196A84AC00E50D0E /* CTAssetItemViewController.m */,
-				D0FD9C2B196A84AC00E50D0E /* CTAssetScrollView.h */,
-				D0FD9C2C196A84AC00E50D0E /* CTAssetScrollView.m */,
-				D0FD9C2D196A84AC00E50D0E /* CTAssetsGroupViewCell.h */,
-				D0FD9C2E196A84AC00E50D0E /* CTAssetsGroupViewCell.m */,
-				D0FD9C2F196A84AC00E50D0E /* CTAssetsGroupViewController.h */,
-				D0FD9C30196A84AC00E50D0E /* CTAssetsGroupViewController.m */,
-				D0FD9C31196A84AC00E50D0E /* CTAssetsPageViewController.h */,
-				D0FD9C32196A84AC00E50D0E /* CTAssetsPageViewController.m */,
-				D0FD9C33196A84AC00E50D0E /* CTAssetsPickerConstants.h */,
-				D0FD9C34196A84AC00E50D0E /* CTAssetsPickerConstants.m */,
-				D0FD9C35196A84AC00E50D0E /* CTAssetsPickerController.h */,
-				D0FD9C36196A84AC00E50D0E /* CTAssetsPickerController.m */,
-				D0FD9C37196A84AC00E50D0E /* CTAssetsSupplementaryView.h */,
-				D0FD9C38196A84AC00E50D0E /* CTAssetsSupplementaryView.m */,
-				D0FD9C39196A84AC00E50D0E /* CTAssetsViewCell.h */,
-				D0FD9C3A196A84AC00E50D0E /* CTAssetsViewCell.m */,
-				D0FD9C3B196A84AC00E50D0E /* CTAssetsViewController.h */,
-				D0FD9C3C196A84AC00E50D0E /* CTAssetsViewController.m */,
-				D0FD9C3D196A84AC00E50D0E /* CTAssetsViewControllerTransition.h */,
-				D0FD9C3E196A84AC00E50D0E /* CTAssetsViewControllerTransition.m */,
-				D0FD9C3F196A84AC00E50D0E /* Images.xcassets */,
-				D0FD9C40196A84AC00E50D0E /* NSDateFormatter+timeIntervalFormatter.h */,
-				D0FD9C41196A84AC00E50D0E /* NSDateFormatter+timeIntervalFormatter.m */,
-			);
-			path = CTAssetsPickerController;
 			sourceTree = "<group>";
 		};
 		D0FDA073196AA26600E50D0E /* imagefilter */ = {
@@ -1483,9 +1420,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0FA32BA1963929E00CAAD74 /* Build configuration list for PBXNativeTarget "SliderVideo" */;
 			buildPhases = (
+				E5953EC2F64CCEB649755269 /* [CP] Check Pods Manifest.lock */,
 				D0FA32811963929E00CAAD74 /* Sources */,
 				D0FA32821963929E00CAAD74 /* Frameworks */,
 				D0FA32831963929E00CAAD74 /* Resources */,
+				42EB834CC9E760DA636B7A20 /* [CP] Embed Pods Frameworks */,
+				9A7E031772011005602307E0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1500,9 +1440,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0FA32BD1963929E00CAAD74 /* Build configuration list for PBXNativeTarget "SliderVideoTests" */;
 			buildPhases = (
+				188F2E741EBC81E92AAC18D2 /* [CP] Check Pods Manifest.lock */,
 				D0FA32A51963929E00CAAD74 /* Sources */,
 				D0FA32A61963929E00CAAD74 /* Frameworks */,
 				D0FA32A71963929E00CAAD74 /* Resources */,
+				0E811813EF1E181DCBE69CA6 /* [CP] Embed Pods Frameworks */,
+				54B910D45A6CC0C432C2713E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1539,6 +1482,29 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
+				da,
+				de,
+				"es-MX",
+				es,
+				fi,
+				fr,
+				he,
+				"hi-IN",
+				hu,
+				id,
+				it,
+				ja,
+				ko,
+				"nl-NL",
+				nl,
+				"pt-PT",
+				pt,
+				ru,
+				sv,
+				tr,
+				"zh-Hans",
+				"zh-Hant",
 			);
 			mainGroup = D0FA327C1963929E00CAAD74;
 			productRefGroup = D0FA32861963929E00CAAD74 /* Products */;
@@ -1565,7 +1531,6 @@
 				D012D6931975C50D001B9FDD /* back@2x.png in Resources */,
 				D0F04EF219772B6600346727 /* unipaste.m4a in Resources */,
 				D02EEDCB198152CB0024768E /* checkoff.png in Resources */,
-				D0FD9C51196A84AC00E50D0E /* Images.xcassets in Resources */,
 				D0F4BF81196C421300A62C6A /* 02.acv in Resources */,
 				D0F04EE31977259D00346727 /* audio3s.png in Resources */,
 				D02EEDCD198152CB0024768E /* checkon@2x.png in Resources */,
@@ -1633,6 +1598,111 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E811813EF1E181DCBE69CA6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SliderVideoTests/Pods-SliderVideoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		188F2E741EBC81E92AAC18D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SliderVideoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42EB834CC9E760DA636B7A20 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SliderVideo/Pods-SliderVideo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54B910D45A6CC0C432C2713E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SliderVideoTests/Pods-SliderVideoTests-resources.sh",
+				"$PODS_CONFIGURATION_BUILD_DIR/CTAssetsPickerController/CTAssetsPickerController.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SliderVideoTests/Pods-SliderVideoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A7E031772011005602307E0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SliderVideo/Pods-SliderVideo-resources.sh",
+				"$PODS_CONFIGURATION_BUILD_DIR/CTAssetsPickerController/CTAssetsPickerController.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SliderVideo/Pods-SliderVideo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5953EC2F64CCEB649755269 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SliderVideo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D0FA32811963929E00CAAD74 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -1647,14 +1717,11 @@
 				D012D62619740523001B9FDD /* VideoRecordViewController.m in Sources */,
 				D0FDA262196AA26700E50D0E /* GPUImageTwoPassFilter.m in Sources */,
 				D02EEDD61981B8730024768E /* VideoSelectViewController.m in Sources */,
-				D0FD9C45196A84AC00E50D0E /* ALAssetsGroup+isEqual.m in Sources */,
 				D0FDA212196AA26700E50D0E /* GPUImageKuwaharaFilter.m in Sources */,
 				D0FDA202196AA26700E50D0E /* GPUImageGlassSphereFilter.m in Sources */,
 				D0FDA20A196AA26700E50D0E /* GPUImageHistogramFilter.m in Sources */,
 				D0FDA231196AA26700E50D0E /* GPUImageOverlayBlendFilter.m in Sources */,
-				D0FD9C46196A84AC00E50D0E /* CTAssetItemViewController.m in Sources */,
 				D0FDA260196AA26700E50D0E /* GPUImageTwoInputCrossTextureSamplingFilter.m in Sources */,
-				D0FD9C49196A84AC00E50D0E /* CTAssetsGroupViewController.m in Sources */,
 				D0FDA26B196AA26700E50D0E /* GPUImageXYDerivativeFilter.m in Sources */,
 				D0FDA230196AA26700E50D0E /* GPUImageOutput.m in Sources */,
 				D0FDA226196AA26700E50D0E /* GPUImageMotionBlurFilter.m in Sources */,
@@ -1666,7 +1733,6 @@
 				D0FDA1EF196AA26700E50D0E /* GPUImageDirectionalNonMaximumSuppressionFilter.m in Sources */,
 				D0FDA1F8196AA26700E50D0E /* GPUImageFASTCornerDetectionFilter.m in Sources */,
 				D0FDA24C196AA26700E50D0E /* GPUImageSobelEdgeDetectionFilter.m in Sources */,
-				D0FD9C42196A84AC00E50D0E /* ALAsset+accessibilityLabel.m in Sources */,
 				D050B31E1963A95D00BE654D /* SEFilterKnob.m in Sources */,
 				D0FDA265196AA26700E50D0E /* GPUImageUnsharpMaskFilter.m in Sources */,
 				D008D9CF196EA91D00D0846F /* POVoiceHUD.m in Sources */,
@@ -1705,8 +1771,6 @@
 				D0FDA1DA196AA26700E50D0E /* GPUImageBrightnessFilter.m in Sources */,
 				D0FDA25E196AA26700E50D0E /* GPUImageToonFilter.m in Sources */,
 				D0FDA20C196AA26700E50D0E /* GPUImageHoughTransformLineDetector.m in Sources */,
-				D0FD9C4E196A84AC00E50D0E /* CTAssetsViewCell.m in Sources */,
-				D0FD9C47196A84AC00E50D0E /* CTAssetScrollView.m in Sources */,
 				D012D661197419E6001B9FDD /* MDRadialProgressLabel.m in Sources */,
 				D0FDA1E7196AA26700E50D0E /* GPUImageColorPackingFilter.m in Sources */,
 				D0FDA24D196AA26700E50D0E /* GPUImageSoftEleganceFilter.m in Sources */,
@@ -1721,7 +1785,6 @@
 				D0FDA23F196AA26700E50D0E /* GPUImageRGBDilationFilter.m in Sources */,
 				D0FDA236196AA26700E50D0E /* GPUImagePixellatePositionFilter.m in Sources */,
 				D0FDA227196AA26700E50D0E /* GPUImageMotionDetector.m in Sources */,
-				D0FD9C4D196A84AC00E50D0E /* CTAssetsSupplementaryView.m in Sources */,
 				D0FDA234196AA26700E50D0E /* GPUImagePinchDistortionFilter.m in Sources */,
 				D0FDA1ED196AA26700E50D0E /* GPUImageDifferenceBlendFilter.m in Sources */,
 				D0FDA1E1196AA26700E50D0E /* GPUImageClosingFilter.m in Sources */,
@@ -1742,7 +1805,6 @@
 				D0F04EDA1977245500346727 /* ACPScrollMenu.m in Sources */,
 				D0FDA25D196AA26700E50D0E /* GPUImageToneCurveFilter.m in Sources */,
 				D0FDA23D196AA26700E50D0E /* GPUImageRawDataOutput.m in Sources */,
-				D0FD9C44196A84AC00E50D0E /* ALAsset+isEqual.m in Sources */,
 				D0FDA253196AA26700E50D0E /* GPUImageStretchDistortionFilter.m in Sources */,
 				D0FDA228196AA26700E50D0E /* GPUImageMovie.m in Sources */,
 				D0FDA1F4196AA26700E50D0E /* GPUImageErosionFilter.m in Sources */,
@@ -1766,11 +1828,9 @@
 				D0FDA220196AA26700E50D0E /* GPUImageLuminosityBlendFilter.m in Sources */,
 				D0FDA26A196AA26700E50D0E /* GPUImageWhiteBalanceFilter.m in Sources */,
 				D0FDA24F196AA26700E50D0E /* GPUImageSolidColorGenerator.m in Sources */,
-				D0FD9C4C196A84AC00E50D0E /* CTAssetsPickerController.m in Sources */,
 				D0FDA267196AA26700E50D0E /* GPUImageVignetteFilter.m in Sources */,
 				D0FDA1E0196AA26700E50D0E /* GPUImageChromaKeyFilter.m in Sources */,
 				D01212A71963E07300D41A41 /* FilterViewController.m in Sources */,
-				D0FD9C4A196A84AC00E50D0E /* CTAssetsPageViewController.m in Sources */,
 				D0FDA243196AA26700E50D0E /* GPUImageSaturationBlendFilter.m in Sources */,
 				D0FDA20D196AA26700E50D0E /* GPUImageHSBFilter.m in Sources */,
 				D012D67019747B36001B9FDD /* AVCamRecorder.m in Sources */,
@@ -1779,11 +1839,9 @@
 				D0FDA1DD196AA26700E50D0E /* GPUImageCannyEdgeDetectionFilter.m in Sources */,
 				D0FDA271196AA26700E50D0E /* GPUImagePicture.m in Sources */,
 				D0FDA215196AA26700E50D0E /* GPUImageLaplacianFilter.m in Sources */,
-				D0FD9C4B196A84AC00E50D0E /* CTAssetsPickerConstants.m in Sources */,
 				D0FA32951963929E00CAAD74 /* main.m in Sources */,
 				D0FDA248196AA26700E50D0E /* GPUImageShiTomasiFeatureDetectionFilter.m in Sources */,
 				D0FDA22A196AA26700E50D0E /* GPUImageMultiplyBlendFilter.m in Sources */,
-				D0FD9C48196A84AC00E50D0E /* CTAssetsGroupViewCell.m in Sources */,
 				D0FDA22F196AA26700E50D0E /* GPUImageOpeningFilter.m in Sources */,
 				D0FDA25F196AA26700E50D0E /* GPUImageTransformFilter.m in Sources */,
 				D0FDA238196AA26700E50D0E /* GPUImagePolarPixellateFilter.m in Sources */,
@@ -1794,7 +1852,6 @@
 				D0FDA255196AA26700E50D0E /* GPUImageSwirlFilter.m in Sources */,
 				D0FDA1DC196AA26700E50D0E /* GPUImageBulgeDistortionFilter.m in Sources */,
 				D0FDA1D7196AA26700E50D0E /* GPUImageAverageLuminanceThresholdFilter.m in Sources */,
-				D0FD9C4F196A84AC00E50D0E /* CTAssetsViewController.m in Sources */,
 				D0FDA222196AA26700E50D0E /* GPUImageMedianFilter.m in Sources */,
 				D0FDA203196AA26700E50D0E /* GPUImageGrayscaleFilter.m in Sources */,
 				D0FDA1E9196AA26700E50D0E /* GPUImageCropFilter.m in Sources */,
@@ -1816,7 +1873,6 @@
 				D0FDA246196AA26700E50D0E /* GPUImageSepiaFilter.m in Sources */,
 				D0FDA21D196AA26700E50D0E /* GPUImageLuminanceRangeFilter.m in Sources */,
 				D0FDA1D4196AA26700E50D0E /* GPUImageAlphaBlendFilter.m in Sources */,
-				D0FD9C52196A84AC00E50D0E /* NSDateFormatter+timeIntervalFormatter.m in Sources */,
 				D0FDA235196AA26700E50D0E /* GPUImagePixellateFilter.m in Sources */,
 				D012D67219747B36001B9FDD /* CaptureManager.m in Sources */,
 				D0FDA22C196AA26700E50D0E /* GPUImageNonMaximumSuppressionFilter.m in Sources */,
@@ -1829,14 +1885,12 @@
 				D0FDA218196AA26700E50D0E /* GPUImageLinearBurnBlendFilter.m in Sources */,
 				D0FDA1D5196AA26700E50D0E /* GPUImageAmatorkaFilter.m in Sources */,
 				D0FDA249196AA26700E50D0E /* GPUImageSingleComponentGaussianBlurFilter.m in Sources */,
-				D0FD9C43196A84AC00E50D0E /* ALAsset+assetType.m in Sources */,
 				D0FDA25A196AA26700E50D0E /* GPUImageThresholdedNonMaximumSuppressionFilter.m in Sources */,
 				D0FDA256196AA26700E50D0E /* GPUImageTextureInput.m in Sources */,
 				D0FDA22D196AA26700E50D0E /* GPUImageNormalBlendFilter.m in Sources */,
 				D0FDA206196AA26700E50D0E /* GPUImageHarrisCornerDetectionFilter.m in Sources */,
 				D050B31D1963A95D00BE654D /* SEFilterControl.m in Sources */,
 				D0FDA208196AA26700E50D0E /* GPUImageHighlightShadowFilter.m in Sources */,
-				D0FD9C50196A84AC00E50D0E /* CTAssetsViewControllerTransition.m in Sources */,
 				D0FDA21C196AA26700E50D0E /* GPUImageLowPassFilter.m in Sources */,
 				D01212C01963E72300D41A41 /* GMGridViewCell.m in Sources */,
 				D0FDA20B196AA26700E50D0E /* GPUImageHistogramGenerator.m in Sources */,
@@ -1973,6 +2027,7 @@
 		};
 		D0FA32BB1963929E00CAAD74 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D85D7D56EF71C9A18F5CC31 /* Pods-SliderVideo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -2001,6 +2056,7 @@
 		};
 		D0FA32BC1963929E00CAAD74 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86F7D0571587EFDBAFF29AED /* Pods-SliderVideo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -2029,6 +2085,7 @@
 		};
 		D0FA32BE1963929E00CAAD74 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6411807BCC4F6DAE9168EA31 /* Pods-SliderVideoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SliderVideo.app/SliderVideo";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -2051,6 +2108,7 @@
 		};
 		D0FA32BF1963929E00CAAD74 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 750AF7CA8394ABEC133A2319 /* Pods-SliderVideoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SliderVideo.app/SliderVideo";
 				FRAMEWORK_SEARCH_PATHS = (

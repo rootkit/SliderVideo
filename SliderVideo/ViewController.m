@@ -11,9 +11,9 @@
 #import "GMGridView.h"
 
 #import "FilterViewController.h"
-
-#import "CTAssetsPickerController.h"
-#import "CTAssetsPageViewController.h"
+#import <CTAssetsPickerController/CTAssetsPickerController.h>
+#import <CTAssetsPickerController/CTAssetsPageViewController.h>
+#import <AssetsLibrary/AssetsLibrary.h>
 #define NUMBER_ITEMS_ON_LOAD 16
 #define NUMBER_ITEMS_ON_LOAD2 16
 @interface ViewController ()
@@ -137,7 +137,7 @@
         self.assets = [[NSMutableArray alloc] init];
     
     CTAssetsPickerController *picker = [[CTAssetsPickerController alloc] init];
-    picker.assetsFilter         = [ALAssetsFilter allPhotos];
+//    picker.asset         = [ALAssetsFilter allPhotos];
     picker.showsCancelButton    = (UI_USER_INTERFACE_IDIOM() != UIUserInterfaceIdiomPad);
     picker.delegate             = self;
     picker.selectedAssets       = [NSMutableArray arrayWithArray:self.assets];
